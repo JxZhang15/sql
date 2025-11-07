@@ -1,4 +1,4 @@
-# Assignment 1: Meet the farmersmarket.db and Basic SQL
+ef# Assignment 1: Meet the farmersmarket.db and Basic SQL
 
 🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
@@ -205,5 +205,5 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+All data systems and technologies come with their own unavoidable weaknesses and require ongoing improvement. Since they are often initially designed to fulfill the needs of the dominant user base, it's nearly impossible to achieve perfect fairness or equity for all groups right out of the gate—it simply involves too many complex, case-specific factors. Therefore, the long-term health of any system relies on its ability to be flexible, adaptable, and open to change. As a system matures and receives feedback from the entirety of society, it can, and must, be improved to address and correct the inequalities baked into its original design.
 ```
