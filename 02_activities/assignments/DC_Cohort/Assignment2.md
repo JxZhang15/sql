@@ -54,7 +54,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 Slowly Changing Dimension is used when the history of the customer’s address is not important. In this approach, the customer’s address record will be overwritten whenever a new address is entered. The store can use this method if they do not need to keep the old address for purposes such as audit, analytics, fraud management, or marketing personalization. This approach is suitable when the store prefers simple processing, requires less storage, and only needs a basic system.
+
+If the store requires a more advanced system and needs to keep historical address information for audit, analytics, fraud management, or marketing personalization, then the store should use Type 2. In Type 2, the old address data is retained, and a new record (row) is created every time the customer changes address. This means one customer can have multiple address records stored over time.
 ```
 
 ***
@@ -183,5 +185,9 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Machine learning and artificial intelligence (AI) are relatively new concepts in human history. Because of this, they exist in a grey area of society where there are still no clear rules or regulations to guide or monitor their development. The capabilities of machine learning and AI are highly attractive, and every country, corporation, and researcher wants to gain a strong position in this fast-growing field. In the race to become a major player, many may overlook or ignore the ethical issues involved in developing these technologies in order to stay competitive in the market.
+
+The author of the article clearly highlights these ethical concerns, such as hidden labour, bias in data and classification, and accountability and power. Many AI systems depend on thousands of low-paid workers who manually label data to train algorithms. Their work is often invisible, raising concerns about fairness and exploitation in the global tech industry. In addition, the data used to train AI models often carries social and cultural biases — related to gender, race, or culture — which can lead to unfair or discriminatory outcomes.
+
+Finally, there is the issue of accountability, as it is often unclear who should be responsible when AI systems make mistakes or cause harm — the developers, companies, or the technology itself. This lack of transparency and regulation creates serious ethical challenges. Therefore, while AI offers great potential, it is crucial to ensure that its development and application are guided by strong ethical principles and social responsibility.
 ```
